@@ -9,7 +9,10 @@ body {
     width: calc(100% - 250px);
     min-height: 100%;
     transition: 0.3s;
-    will-change: width;
     float: right;
+    will-change: width;
+    &.no-sidebar{
+      width: 100%;
+    }
   }
 }

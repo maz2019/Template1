@@ -1,1 +1,1 @@
-var myvar=1,myvar2=4;
+$(function(){"use strict";$(".toggle-sidebar").on("click",function(){$(".content-area, .sidebar").toggleClass("no-sidebar")})});
